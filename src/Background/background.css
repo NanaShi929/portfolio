@@ -13,7 +13,7 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-   mix-blend-mode:color-dodge;
+   /* mix-blend-mode:color-dodge; */
 }
 
 .square {
