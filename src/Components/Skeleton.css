@@ -1,19 +1,67 @@
+.page{
+    
+    position: relative;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  box-sizing: border-box;
+
+}
 .container {
     margin: 8vh 6vw;
     position: relative;
     top: 0px;
     left: 0px;
-    width: 100%;
-    height: 84vh;
-    max-width: 1268px;
-    max-height: 674px;
-    transition: 0.4s;
+     width: 100%;
+    height: 84vh; 
+    /* max-width: 1268px; 
+    max-height: 674px; */
+     transition: 0.4s;
+}
+.menuCard{
+
+    margin-right: 8px;
+    position: relative;
+    left: 0;
+    top: 15px;
+    float: left;
+    width: 72px;
+    z-index: 100;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+
 }
 .profileCard{
+    position: relative;
     width:480px;
     height: 100%;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(147, 147, 224);
     z-index: 11;
+    float: left;
+    box-shadow:10px aqua;
     
+}
+.detailsCard{
+    position: relative;
+    float: left;
+    top :0;
+    right: 10px;
+ width:650px;
+    height: 95%;
+    top:14.4px;
+    /* border-radius: 10px; */
+    background-color: rgb(28 28 33);
+    z-index: 10;
+    overflow: scroll;
+     overflow-x: hidden;
+     scrollbar-color:rgb(62 67 70) rgb(36 36 36);
+     justify-items: center;
+     align-content: center;
+     
 }
