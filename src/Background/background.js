@@ -3,8 +3,8 @@ import "./background.css";
 function Background() {
   return (
     <>
-      <div class="area">
-        <ul class="square">
+      <div className="area">
+        <ul className="square">
           <li></li>
           <li></li>
           <li></li>
