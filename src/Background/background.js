@@ -1,5 +1,5 @@
+import Layout from "../Components/Layout/Layout";
 import "./background.css";
-import Skeleton from "../Components/Skeleton";
 function Background() {
   return (
     <>
@@ -16,7 +16,7 @@ function Background() {
           <li></li>
           <li></li>
         </ul>
-        <Skeleton></Skeleton>
+        <Layout></Layout>
       </div>
     </>
   );
