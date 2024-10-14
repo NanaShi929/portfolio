@@ -10,20 +10,31 @@ function Menu() {
     <>
       <Router>
         <div className="theme"></div>
-        <div>
-          <Link to={"../Pages/About.js"}>
-            <img src="../icons/Person.png" alt="About"></img>
-          </Link>
-
-          <Link to={"../Pages/Resume"}>
-            <img src="../icons/Resume.png" alt="Resume"></img>
-          </Link>
-          <Link to={"../Pages/Project"}>
-            <img src="../icons/Office.png" alt="Office"></img>
-          </Link>
-          <Link to={"../Pages/Contact"}>
-            <img src="../icons/Contact.png" alt="Contact"></img>
-          </Link>
+        <div className="menu">
+          <div>
+            <Link to={"../About"}>
+              <img src="../icons/Person.png" alt="About"></img>
+            </Link>
+            <span>About</span>
+          </div>
+          <div>
+            <Link to={"../Resume"}>
+              <img src="../icons/Resume.png" alt="Resume"></img>
+            </Link>
+            <span>Resume</span>
+          </div>
+          <div>
+            <Link to={"../Project"}>
+              <img src="../icons/Office.png" alt="Office"></img>
+            </Link>
+            <span>Projects</span>
+          </div>
+          <div>
+            <Link to={"../Contact"}>
+              <img src="../icons/Contact.png" alt="Contact"></img>
+            </Link>
+            <span>Contact</span>
+          </div>
         </div>
         <Routes>
           <Route path="/" element={<About />} />
