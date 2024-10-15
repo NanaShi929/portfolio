@@ -8,6 +8,7 @@ function Layout() {
           <Menu></Menu>
 
           <div className="profileCard"></div>
+          <div className="detailsCard"></div>
         </div>
       </div>
     </>
