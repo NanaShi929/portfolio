@@ -39,7 +39,7 @@
   /* top: 15px; */
   
   float: left;
-  width: 60px;
+  width: 65px;
  height: 60%;
   align-content: space-evenly;
   justify-content: space-evenly;
@@ -76,7 +76,8 @@ margin-bottom: 30px;
   width: 480px;
   height: 100%;
   border-radius: 10px;
-  background-color: rgb(147, 147, 224);
+  /* background-color: rgb(147, 147, 224); */
+  background-color: rgb(154 163 174);
   z-index: 11;
   float: left;
   box-shadow: 10px aqua;
@@ -109,7 +110,7 @@ margin-bottom: 30px;
 .detailsCard {
   position: relative;
   float: left;
-  width: 650px;
+  width: 695px;
   height: 95%;
   
   background-color: rgb(28, 28, 33);

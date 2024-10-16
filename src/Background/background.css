@@ -5,11 +5,12 @@
 
 .area {
   /* background: #4e54c8; */ position: absolute;
-  background: linear-gradient(
+  /* background: linear-gradient(
           to right bottom,
           #51a4a3 0%,
           #4fb941 100%
-        ) ;
+        ) ; */
+         background: linear-gradient(to right bottom, rgb(28 28 33) 0%, rgb(79, 185, 65) 100%) !important;
   width: 100vw;
   height: 100vh;
   z-index: -1;
