@@ -1,28 +1,68 @@
-// import  './App.css'
-// import Background from './Background/background';
-// import Layout from './Components/Layout/Layout';
-import About from "./Components/Pages/About"
+// // import  './App.css'
+// // import Background from './Background/background';
+
+// // function App() {
+// //     return (
+// //       <>
+        
+// //         <Background></Background>
+        
+// //       </>
+// //     );
+// // }
+
+// // export default App;
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Background from "./Background/background";
+// import About from "./Components/Pages/About"
 // import Resume from "./Components/Pages/Resume"
 // import Project from "./Components/Pages/Project"
 // import Contact from "./Components/Pages/Contact"
+
+// function App() {
+//   return (
+//     <>
+//       <Router>
+//         <Background />
+//         <Routes>
+//           <Route path="/" element={<About />} />
+//           <Route path="/resume" element={<Resume />} />
+//           <Route path="/project" element={<Project />} />
+//           <Route path="/contact" element={<Contact />} />
+//         </Routes>
+//       </Router>
+//     </>
+//   );
+// }
+
+// export default App;
+
+// // import About from "./Components/Pages/About"
+// // import Resume from "./Components/Pages/Resume"
+// // import Project from "./Components/Pages/Project"
+// // import Contact from "./Components/Pages/Contact"
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import Background from "./Background/background";
+// import About from "./Components/Pages/About"
+// import Resume from "./Components/Pages/Resume"
+// import Project from "./Components/Pages/Project"
+// import Contact from "./Components/Pages/Contact"
+
 function App() {
-    return (
-      <>
-        <About></About>
-        
-        {/* <Background></Background> */}
-        {/* <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Layout />} />
-              <Route path="blogs" element={<Blogs />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="*" element={<NoPage />} />
-            </Route>
-          </Routes>
-        </BrowserRouter> */}
-      </>
-    );
+  return (
+    <>
+      <Routes>
+        <Background />
+
+        {/* <Route path="/" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </>
+  );
 }
 
 export default App;
